@@ -2,7 +2,7 @@
 
 PORT_HOME="$(dirname "$0")/.data/CannonBall"
 RETROARCH_DIR="/mnt/SDCARD/RetroArch"
-RETROARCH_CORE="cannonball_libretro.so"
+RETROARCH_CORE="$PORT_HOME/cannonball_libretro.so"
 GAME_FILE="$PORT_HOME/CannonBall.game"
 
 cd "$RETROARCH_DIR"
