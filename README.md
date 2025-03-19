@@ -1,6 +1,6 @@
 # Quark Gluons
 
-This repository contains *gluons*, add-on packages for the [Quark](https://github.com/cobaltgit/Quark] system for the TrimUI Smart. These include additional systems, ports and other applications considered too large to include in the Quark base package.
+This repository contains *gluons*, add-on packages for the [Quark](https://github.com/cobaltgit/Quark) system for the TrimUI Smart. These include additional systems, ports and other applications considered too large to include in the Quark base package.
 
 ## Installation
 
