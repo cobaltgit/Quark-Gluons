@@ -6,7 +6,7 @@ This repository contains *gluons*, add-on packages for the [Quark](https://githu
 
 The installation process is relatively straightforward:
 
-1. Download the archive for the gluon you want to install from the [releases](https://github.com/cobaltgit/Quark-Gluons/releases/latest) section.
+1. Download the archive for the gluon you want to install from the [releases](https://github.com/cobaltgit/Quark-Gluons/releases) section.
 2. Place the archive in the `System/archives` folder on your Smart's SD card.
 3. Insert your SD card into your Smart and then boot. It may take a little longer than usual, this is where the archive will automatically extract into your system.
 4. Done!
