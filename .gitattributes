@@ -1,0 +1,2 @@
+Systems/ScummVM/mnt/SDCARD/RetroArch/.retroarch/cores/scummvm_libretro.so filter=lfs diff=lfs merge=lfs -text
+Systems/FBNeo/mnt/SDCARD/RetroArch/.retroarch/cores/fbneo_libretro.so filter=lfs diff=lfs merge=lfs -text
