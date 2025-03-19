@@ -2,7 +2,7 @@
 
 PORT_HOME="$(dirname "$0")/.data/SuperMarioWar"
 RETROARCH_DIR="/mnt/SDCARD/RetroArch"
-RETROARCH_CORE="superbroswar_libretro.so"
+RETROARCH_CORE="$PORT_HOME/superbroswar_libretro.so"
 GAME_FILE="$PORT_HOME/SuperMarioWar.game"
 
 cd "$RETROARCH_DIR"
