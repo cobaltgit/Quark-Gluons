@@ -2,7 +2,7 @@
 
 PORT_HOME="$(dirname "$0")/.data/Doukutsu"
 RETROARCH_DIR="/mnt/SDCARD/RetroArch"
-RETROARCH_CORE="nxengine_libretro.so"
+RETROARCH_CORE="$PORT_HOME/nxengine_libretro.so"
 GAME_FILE="$PORT_HOME/Doukutsu.exe"
 
 cd "$RETROARCH_DIR"
