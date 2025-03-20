@@ -35,3 +35,8 @@ Quark_System_FBNeo.zip
             └── FBNEO
                 └── Imgs
 ```
+
+## Credits
+
+* [**Steward Fu**](https://steward-fu.github.io/website): DraStic Nintendo DS emulator and Streets of Rage Remake port
+* [**libretro**](https://www.retroarch.com/): system icons from Systematic/Retroactive RetroArch XMB themes
