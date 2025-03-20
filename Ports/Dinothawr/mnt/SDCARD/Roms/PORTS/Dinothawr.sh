@@ -2,7 +2,7 @@
 
 PORT_HOME="$(dirname "$0")/.data/Dinothawr"
 RETROARCH_DIR="/mnt/SDCARD/RetroArch"
-RETROARCH_CORE="dinothawr_libretro.so"
+RETROARCH_CORE="$PORT_HOME/dinothawr_libretro.so"
 GAME_FILE="$PORT_HOME/dinothawr.game"
 
 cd "$RETROARCH_DIR"
