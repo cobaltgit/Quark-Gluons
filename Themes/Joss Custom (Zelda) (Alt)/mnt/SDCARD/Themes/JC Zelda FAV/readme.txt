@@ -1,3 +1,5 @@
+Theme created by marcoosio.
+
 -For best results after applying any theme, always restart the device
 or it won't fully load.
 
