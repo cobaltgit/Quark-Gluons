@@ -1,6 +1,6 @@
 #!/bin/sh
 
-. /mnt/SDCARD/System/bin/helpers.sh
+. /mnt/SDCARD/System/scripts/helpers.sh || . /mnt/SDCARD/System/bin/helpers.sh
 
 EMU="$(echo "$1" | cut -d'/' -f5)"
 GAME="$(basename "$1")"
