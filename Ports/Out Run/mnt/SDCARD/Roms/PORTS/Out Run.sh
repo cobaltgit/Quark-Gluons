@@ -9,6 +9,6 @@ cd "$RETROARCH_DIR"
 
 cp -f "retroarch.cfg" "retroarch_sdl.cfg"
 
-HOME="$RETROARCH_DIR" "$RETROARCH_DIR/ra32.trimui_sdl" -v -L "$RETROARCH_CORE" "$GAME_FILE"
+HOME="$RETROARCH_DIR" "$RETROARCH_DIR/ra32.trimui_sdl" -v $NET_PARAM -L "$RETROARCH_CORE" "$GAME_FILE"
 
 cp -f "retroarch_sdl.cfg" "retroarch.cfg"
