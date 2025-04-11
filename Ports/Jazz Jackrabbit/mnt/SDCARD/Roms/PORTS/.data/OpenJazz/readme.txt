@@ -1,0 +1,2 @@
+Includes Jazz Jackrabbit v1.3 and Holiday Hare shareware files. Place full game files from GoG in the 'jazz' folder to play the full game.
+Known issue: cannot use ESC key. Press SELECT+START simultaneously to exit.
