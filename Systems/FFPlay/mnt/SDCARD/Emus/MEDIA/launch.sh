@@ -31,6 +31,8 @@ cd "$EMU_DIR"
 
 echo 1 > /tmp/stay_awake
 
+cat /dev/zero > /dev/fb0
+
 ffplay -x 320 -y 240 -fs -i "$(readlink -f "$1")" >/dev/null 2>&1
 
 rm -f /tmp/stay_awake
