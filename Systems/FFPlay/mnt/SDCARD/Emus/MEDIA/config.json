@@ -7,7 +7,7 @@
   "useswap": 0,
   "shortname": 0,
   "hidebios": 0,
-  "extlist": "mp4|avi|ogv|ogg|mp3|flac|opus|mp2|mkv|oga|mka|wav|mov|webm|flv|m4v|wmv|aac|m4a|wma",
+  "extlist": "mp4|avi|ogv|ogg|mp3|flac|opus|mp2|mkv|oga|mka|wav|mov|webm|flv|m4v|wmv|aac|m4a|wma|mpg",
   "launchlist": [
     {
       "name": "CPU: Smart",
