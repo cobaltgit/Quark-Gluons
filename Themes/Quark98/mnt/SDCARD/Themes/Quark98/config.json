@@ -1,0 +1,24 @@
+{
+    "name":"Quark98 by goobluon",
+    "font":"MSW98UI-Regular.otf",
+    "fontascii":"MSW98UI-Bold.otf",
+    "fontsize":{
+        "title":18,
+        "statbar":16,
+        "list":16
+    },
+    "fontcolor":{
+        "title":"#FFFFFF",
+        "shadow":"#000000",
+        "statbar":"#000000",
+        "list":"#FFFFFF",
+        "listsel":"#defffb",
+        "iconlist":"#FFFFFF",
+        "iconlistsel":"#0537eb",
+        "notify":"#00FF00",
+        "popup":"#FF0000",
+        "popupsel":"#0000FF",
+        "highlight":"#0537eb",
+        "subtext":"#69808a"
+    }
+} 
