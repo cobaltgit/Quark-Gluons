@@ -1,0 +1,24 @@
+{
+    "name":"quarkOS by goobluon",
+    "font":"ChiKareGo2.ttf",
+    "fontascii":"ChiKareGo2.ttf",
+    "fontsize":{
+        "title":16,
+        "statbar":19,
+        "list":16
+    },
+    "fontcolor":{
+        "title":"#000000",
+        "shadow" :"#c0c0c0",
+        "statbar":"#000000",
+        "list":"#FFFFFF",
+        "listsel":"#ccccFF",
+        "iconlist":"#FFFFFF",
+        "iconlistsel":"#ccccFF",
+        "notify":"#00FF00",
+        "popup":"#FFFFFF",
+        "popupsel":"#FFFFFF",
+        "highlight":"#ccccFF",
+        "subtext":"#dddddd"
+    }
+} 
