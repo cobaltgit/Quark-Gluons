@@ -1,4 +1,4 @@
-## Template: Standalone Ports
+## Template: Libretro Ports
 
 This is a template framework for libretro-based ports for the TrimUI Smart. 
 
