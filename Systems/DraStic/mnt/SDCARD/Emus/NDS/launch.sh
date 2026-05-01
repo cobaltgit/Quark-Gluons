@@ -23,15 +23,25 @@ L2R2_COMBO=$(cat /sys/module/gpio_keys_polled/parameters/l2r2combokey)
 echo 10 > /proc/sys/vm/swappiness
 echo 0 > /sys/module/gpio_keys_polled/parameters/l2r2combokey
 
-if [ "$CPU_MODE" = "smart" ]; then
-    { # speed up game launch
-        set_cpuclock --mode performance
-        sleep 5
-        set_cpuclock --mode smart --min-freq $CPU_MIN_FREQ
-    } &
-else
-    set_cpuclock --mode "$CPU_MODE"
-fi
+case "$CPU_MODE" in
+    smart)
+        { # speed up game launch
+            set_cpuclock --mode performance
+            sleep 5
+            set_cpuclock --mode smart --min-freq $CPU_MIN_FREQ
+        } &
+        ;;
+    performance|maximum|overclock)
+        set_cpuclock --mode "$CPU_MODE"
+        ;;
+    turbo|overdrive|unstable)
+        { # crash prevention
+            set_cpuclock --mode maximum
+            sleep 5
+            set_cpuclock --mode "$CPU_MODE"
+        } &
+        ;;
+esac
 
 cd $EMU_DIR
 if [ ! -f "/tmp/.show_hotkeys" ]; then
