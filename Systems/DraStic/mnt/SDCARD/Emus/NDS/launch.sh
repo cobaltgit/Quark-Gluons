@@ -36,7 +36,7 @@ case "$CPU_MODE" in
         ;;
     turbo|overdrive|unstable)
         { # crash prevention
-            set_cpuclock --mode maximum
+            set_cpuclock --mode overclock
             sleep 5
             set_cpuclock --mode "$CPU_MODE"
         } &
