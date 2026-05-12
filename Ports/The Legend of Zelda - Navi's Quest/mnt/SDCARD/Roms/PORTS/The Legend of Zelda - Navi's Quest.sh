@@ -5,6 +5,10 @@ HOME="$PORT_HOME"
 
 export SDL_VIDEO_FBCON_ROTATION="CCW"
 
+# fix esc not registering, needed for saving
+L2R2_COMBO=$(cat /sys/module/gpio_keys_polled/parameters/l2r2combokey)
+echo 0 > /sys/module/gpio_keys_polled/parameters/l2r2combokey
+
 cd "$PORT_HOME"
 
 while true; do # in case of a crash
@@ -20,3 +24,5 @@ while true; do # in case of a crash
 done &
 
 ./zelda_nsq
+
+echo $L2R2_COMBO > /sys/module/gpio_keys_polled/parameters/l2r2combokey
